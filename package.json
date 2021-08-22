@@ -1,0 +1,22 @@
+{
+  "name": "ytmultiviewer",
+  "version": "1.0.0",
+  "description": "Youtube video multi-viewer",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phangs/yt-multiviewer.git"
+},
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Wilbert Pineda",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

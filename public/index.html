@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link href="./styles.css" rel="stylesheet">
+  <title>YT Multiviewer</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <h4>Youtube Multiviewer</h4>
+    <div class="row mb-3">
+      <div class="col v-slot">
+        <div class="row">
+          <div class="input-group mb-1">
+            <input type="text" class="form-control" placeholder="Video URL" aria-label="Video URL" id="tb1"
+              aria-describedby="btn1">
+            <button class="btn btn-outline-secondary" type="button" id="btn1" onclick="loadSlot1()">Load Video</button>
+          </div>
+        </div>
+        <div id="vid1" class="row">
+          <iframe id="iframe1" height="144" src="" title="YouTube video player"
+            frameborder="1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+        </div>
+      </div>
+
+      <div class="col v-slot">
+        <div class="row">
+          <div class="input-group mb-1">
+            <input type="text" class="form-control" placeholder="Video URL" aria-label="Video URL" id="tb2"
+              aria-describedby="btn2">
+            <button class="btn btn-outline-secondary" type="button" id="btn2" onclick="loadSlot2()">Load Video</button>
+          </div>
+        </div>
+        <div class="row">
+          <iframe id="iframe2" height="144" src="" title="YouTube video player"
+            frameborder="1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+        </div>
+      </div>
+
+      <div class="col v-slot">
+        <div class="row">
+          <div class="input-group mb-1">
+            <input type="text" class="form-control" placeholder="Video URL" aria-label="Video URL" id="tb3"
+              aria-describedby="btn3">
+            <button class="btn btn-outline-secondary" type="button" id="btn3" onclick="loadSlot3()">Load Video</button>
+          </div>
+        </div>
+        <div class="row">
+          <iframe id="iframe3" height="144" src="" title="YouTube video player"
+            frameborder="1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col v-slot">
+        <div class="row">
+          <div class="input-group mb-1">
+            <input type="text" class="form-control" placeholder="Video URL" aria-label="Video URL" id="tb4"
+              aria-describedby="btn4">
+            <button class="btn btn-outline-secondary" type="button" id="btn4" onclick="loadSlot4()">Load Video</button>
+          </div>
+        </div>
+        <div class="row">
+          <iframe id="iframe4" height="144" src="" title="YouTube video player"
+            frameborder="1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+        </div>
+      </div>
+
+      <div class="col v-slot">
+        <div class="row">
+          <div class="input-group mb-1">
+            <input type="text" class="form-control" placeholder="Video URL" aria-label="Video URL" id="tb5"
+              aria-describedby="btn5">
+            <button class="btn btn-outline-secondary" type="button" id="btn5" onclick="loadSlot5()">Load Video</button>
+          </div>
+        </div>
+        <div class="row">
+          <iframe id="iframe5" height="144" src="" title="YouTube video player"
+            frameborder="1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+        </div>
+      </div>
+
+      <div class="col v-slot">
+        <div class="row">
+          <div class="input-group mb-1">
+            <input type="text" class="form-control" placeholder="Video URL" aria-label="Video URL" id="tb6"
+              aria-describedby="btn6">
+            <button class="btn btn-outline-secondary" type="button" id="btn6" onclick="loadSlot6()">Load Video</button>
+          </div>
+        </div>
+        <div class="row">
+          <iframe id="iframe6" height="144" src="" title="YouTube video player"
+            frameborder="1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col v-slot">
+        <div class="row">
+          <div class="input-group mb-1">
+            <input type="text" class="form-control" placeholder="Video URL" aria-label="Video URL" id="tb7"
+              aria-describedby="btn7">
+            <button class="btn btn-outline-secondary" type="button" id="btn7" onclick="loadSlot7()">Load Video</button>
+          </div>
+        </div>
+        <div class="row">
+          <iframe id="iframe7" height="144" src="" title="YouTube video player"
+            frameborder="1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+        </div>
+      </div>
+
+      <div class="col v-slot">
+        <div class="row">
+          <div class="input-group mb-1">
+            <input type="text" class="form-control" placeholder="Video URL" aria-label="Video URL" id="tb8"
+              aria-describedby="btn8">
+            <button class="btn btn-outline-secondary" type="button" id="btn8" onclick="loadSlot8()">Load Video</button>
+          </div>
+        </div>
+        <div class="row">
+          <iframe id="iframe8" height="144" src="" title="YouTube video player"
+            frameborder="1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+        </div>
+      </div>
+
+      <div class="col v-slot">
+        <div class="row">
+          <div class="input-group mb-1">
+            <input type="text" class="form-control" placeholder="Video URL" aria-label="Video URL" id="tb9"
+              aria-describedby="btn9">
+            <button class="btn btn-outline-secondary" type="button" id="btn9" onclick="loadSlot9()">Load Video</button>
+          </div>
+        </div>
+        <div class="row">
+          <iframe id="iframe9" height="144" src="" title="YouTube video player"
+            frameborder="1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+    crossorigin="anonymous"></script>
+  <script src='./app.js'></script>
+</body>
+
+</html>
